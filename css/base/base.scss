@@ -95,6 +95,4 @@ img{
 @mixin bg($bg-color){
     background:$bg-color;
 }
-@mixin background-img{
-    img-path:'../img'
-}
+$imgPath:'../img/';

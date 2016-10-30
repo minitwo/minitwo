@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/*头  背景    墨蓝色*/
+/*头     浅灰色*/
+/*头  搜索     嫩绿*/
+/*头    黄色*/
+/*头  深绿*/
+/*大字体 紫色*/
+/*中字体颜色    黑色*/
+/*小字体颜色    黑色*/
+/*蓝色*/
+/*常用   中等蓝色*/
+/*最浅的蓝色*/
+/*粉色*/
+/*常用    深绿色*/
+/*黄色*/
+/*橙色*/
+/*红色*/
+/*灰色*/
+/*深灰色*/
+/*白色*/
+body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  position: relative;
+  font-family: "microsoft yahei";
+  box-sizing: border-box;
+}
+
+/*城市*/
+.city {
+  width: 1200px;
+  margin: 41px auto;
+  height: 190px;
+}
+
+.city .city-zuo {
+  width: 580px;
+  height: 190px;
+  float: left;
+  margin-right: 40px;
+  background-image: url("../img/companylists/1.png");
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px #CECECE;
+}
+
+.city .city-zuo:last-child {
+  background-image: url("../img/companylists/2.png");
+  margin-right: 0;
+}
+
+.city-zuo .tuijian h3 {
+  width: 100%;
+  height: 40px;
+  font-size: 25px;
+  color: #fff;
+  padding-left: 30px;
+  margin-top: 29px;
+  letter-spacing: 2px;
+  font-family: "苹方";
+}
+
+.city-zuo .tuijian h3 span {
+  font-size: 18px;
+  color: #fff;
+  font-family: "苹方";
+}
+
+.manycity {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  padding-left: 30px;
+}
+
+.manycity a {
+  width: 70px;
+  height: 38px;
+  float: left;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/*职位介绍*/
+.zhiwei {
+  width: 1200px;
+  margin: 12px auto;
+  height: 218px;
+  background: url("../img/companylists/3.png") no-repeat;
+  background-size: 100% 218px;
+  box-shadow: 0 3px 15px #AAAAAA;
+}
+
+.zhiweib {
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 64px;
+}
+
+.zhiweib:nth-child(1) {
+  border-bottom: 1px solid #0FC6EE;
+}
+
+.zhiwei .btwo {
+  border-bottom: 1px solid #FBC74B;
+}
+
+.zhiwei .bthr {
+  border-bottom: 1px solid #0FC8F0;
+}
+
+.zhiweizuo {
+  width: 750px;
+  height: 100%;
+  float: left;
+  padding-top: 40px;
+}
+
+.zhiweizuo .circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-image: url("../img/companylists/9.png");
+  background-position: -25px 0px;
+  border: 2px solid #DDDDDD;
+  float: left;
+}
+
+.zhiweizuo .zhiweitwo {
+  width: 60%;
+  height: 100%;
+  float: left;
+  margin-left: 40px;
+}
+
+.zhiweizuo .zhiweitwo span {
+  display: block;
+  height: 44px;
+  width: 100%;
+  color: #424242;
+  font-size: 18px;
+  line-height: 44px;
+}
+
+.zhiweizuo .zhiweitwo ul {
+  height: 44px;
+  width: auto;
+}
+
+.zhiweizuo .zhiweitwo ul .sheji {
+  height: 44px;
+  width: 130px;
+  color: #424242;
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  line-height: 44px;
+}
+
+.zhiweizuo .zhiweitwo ul li:nth-child(2) {
+  width: 200px;
+  height: auto;
+  font-size: 36px;
+  color: #07B0D5;
+  font-family: "San Francisco Display";
+  float: left;
+  font-weight: bolder;
+}
+
+.zhiweizuo .zhiweitwo .picture {
+  height: 44px;
+  width: 100%;
+}
+
+.zhiweizuo .zhiweitwo .picture h5 {
+  width: 40%;
+  height: 44px;
+  line-height: 44px;
+  float: left;
+  color: #424242;
+}
+
+.person {
+  width: 376px;
+  height: 100%;
+  float: left;
+  padding-top: 28px;
+}
+
+.person .circle2 {
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  border: 2px solid #DDDDDD;
+  margin: 0 auto;
+  background-image: url("../img/companylists/10.png");
+  background-position: -15px -23px;
+}
+
+.person .name {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+}
+
+.person .contact {
+  width: 150px;
+  height: 50px;
+  background: url("../img/companylists/11.png") no-repeat;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 45px;
+}
+
+.person .contact a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 100px auto;
+  padding-left: 180px;
+}
+
+.page .tuoyuan {
+  width: 76px;
+  height: 28px;
+  border: 1px solid #9E9E9E;
+  border-radius: 30px;
+  float: left;
+  margin-left: 18px;
+  background: #FBFBFB;
+  text-align: center;
+  line-height: 28px;
+}
+
+.page .tuoyuan a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #7D7D7D;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.page .yuan1 {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #9E9E9E;
+  float: left;
+  margin-left: 18px;
+  background: #FBFBFB;
+  text-align: center;
+  line-height: 28px;
+}
+
+.page .yuan1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #7D7D7D;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.page .yuan2 {
+  width: 34px;
+  height: 34px;
+  background: #2E87F8;
+  border: 0;
+  position: relative;
+  line-height: 34px;
+}
+
+.page .yuan2 a {
+  color: #fff;
+}
+
+.page .yuan2:after {
+  content: "";
+  width: 28px;
+  height: 28px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.page .yuan3 {
+  width: 32px;
+  height: 32px;
+  box-shadow: 0 0 3px #D1C9C9;
+  border: 0;
+  position: relative;
+}
+
+.page .yuan3:after {
+  content: "Go";
+  width: 28px;
+  height: 28px;
+  background: #2E87F8;
+  color: #FFFFFF;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.page .yuan3 a {
+  color: #fff;
+}
+
+/*推荐企业*/
+.Recommend {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Recommend .recommend-top {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  letter-spacing: 1.3px;
+}
+
+.Recommend .recommend-top .dian {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Recommend .recommend-top h4 {
+  float: left;
+  color: #585858;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.Recommend .recommend-top h2 {
+  float: left;
+  font-size: 33px;
+  color: #48B45A;
+  line-height: 30px;
+}
+
+.Recommend .recommend-top h3 {
+  float: left;
+  font-size: 22px;
+  color: #727272;
+  line-height: 40px;
+  padding-left: 5px;
+  font-family: "San Francisco Display";
+}
+
+.Recommend .recommend-top .tupian {
+  width: 145px;
+  height: 70px;
+  float: left;
+  background: url("../img//companylists/11.png") no-repeat;
+  margin-left: 18px;
+  margin-right: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.Recommend .recommend-top a {
+  display: block;
+  width: 80%;
+  height: 100%;
+  color: #fff;
+}
+
+.Recommend .recommend-top .tupian1 {
+  background: url("../img//companylists/12.png") no-repeat;
+}
+
+.Recommend .recommend-top .tupian2 {
+  background: url("../img//companylists/14.png") no-repeat;
+}
+
+.yatu {
+  width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.yatu li {
+  width: 366px;
+  height: 265px;
+  float: left;
+  margin-left: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.yatu li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.yatu li .hide-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.company {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 18px;
+  margin-bottom: 42px;
+  overflow: hidden;
+}
+
+.company li {
+  width: 366px;
+  height: auto;
+  float: left;
+  margin-left: 32px;
+  position: relative;
+}
+
+.company li h4 {
+  width: 100%;
+  height: 28px;
+  color: #434141;
+  font-size: 18px;
+}
+
+.company li h4 span {
+  display: block;
+  width: 30%;
+  height: 100%;
+  white-space: nowrap;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.company li h4 span:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 100%;
+  border-bottom: 1px solid #F3BC13;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.company li p {
+  width: 70%;
+  color: #7C7C7C;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+
+.company li .yuantu {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid #DDDDDD;
+  right: 0;
+  border-radius: 50%;
+  background-image: url("../img/companylists/7.png");
+  background-position: -128px -34px;
+  background-repeat: no-repeat;
+}
+
+.company li .yuantu1 {
+  background-image: url("../img/companylists/6.png");
+  background-position: -10px 0px;
+  background-repeat: no-repeat;
+}
+
+.company li .yuantu2 {
+  background-image: url("../img/companylists/8.png");
+  background-size: 290% auto;
+  background-repeat: no-repeat;
+  background-position: -70px -10px;
+}

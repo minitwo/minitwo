@@ -1,1 +1,400 @@
-@import "base.scss"
+@import "../base/base.scss";
+/*城市*/
+.city{
+    width: $width;
+    margin: 41px auto;
+    height: 190px;         
+   & .city-zuo{
+      @include square(580px,190px)
+       float: left;
+       margin-right: 40px;
+       background-image: url($imgPath+"companylists/1.png"); 
+       background-repeat: no-repeat; 
+       box-shadow: 0 0 10px #CECECE;     
+   }  
+   & .city-zuo:last-child{    
+       background-image: url($imgPath+"companylists/2.png");  
+       margin-right: 0;
+    }
+}
+.city-zuo .tuijian h3{
+    @include square(100%, 40px);
+    font-size:25px;
+    color: #fff;
+    padding-left: 30px;
+    margin-top: 29px;
+    letter-spacing: 2px;
+    font-family: "苹方";
+    & span{
+        font-size: 18px;
+        color: #fff;
+        font-family: "苹方";
+    }
+}
+.manycity{
+    @include square(70%,auto);
+    overflow:hidden;
+    padding-left: 30px;
+    & a{
+        @include square(70px,38px);
+        float: left;
+        color:$co19;
+        font-size: 16px;
+    }
+}
+/*职位介绍*/
+.zhiwei{
+    width: $width;
+    margin: 12px auto;
+    height: 218px;
+    background: url($imgPath+"companylists/3.png") no-repeat ;
+    background-size: 100% 218px;
+    box-shadow: 0 3px 15px #AAAAAA;    
+}
+.zhiweib{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 64px;   
+}
+.zhiweib:nth-child(1){
+    border-bottom: 1px solid #0FC6EE;
+}
+.zhiwei .btwo{
+    border-bottom: 1px solid #FBC74B;
+}
+.zhiwei .bthr{
+    border-bottom: 1px solid #0FC8F0;
+}
+.zhiweizuo{
+       width: 750px;
+       height: 100%;
+       float: left;
+       padding-top: 40px;
+        & .circle{
+            @include square(130px,130px);
+            border-radius: 50%;
+            background-image:url($imgPath+"companylists/9.png");
+            background-position:-25px 0px;
+            border:2px solid #DDDDDD;   
+            float: left;         
+        }
+        & .zhiweitwo{
+            @include square(60%,100%);
+            float: left;
+            margin-left:40px ;
+            & span{
+                display: block;
+                height: 44px;
+                width: 100%;
+                color: #424242;
+                font-size:18px;
+                line-height: 44px;
+            }
+            & ul{
+                 height: 44px;
+                width: auto;
+                & .sheji{
+                    height: 44px;
+                    width: 130px;
+                    color: #424242;
+                    font-size:18px;
+                    font-weight: bold;
+                    float: left;
+                    line-height: 44px;
+                    
+                }
+                & li:nth-child(2){
+                     @include square(200px,auto)
+                    font-size: 36px;
+                    color: #07B0D5;
+                    font-family: "San Francisco Display";
+                    float: left;
+                    font-weight: bolder;
+                }
+            }
+            & .picture{
+                height: 44px;
+                width: 100%;
+                & h5{
+                    width: 40%;
+                    height: 44px;
+                    line-height: 44px;
+                    float: left;
+                    color: #424242;
+                }
+            }
+        }
+}
+.person{
+    @include square(376px,100%);
+    float: left;
+    padding-top: 28px;
+    & .circle2{
+        @include square(73px,73px);
+        border-radius: 50%;
+        border: 2px solid #DDDDDD; 
+        margin: 0 auto;
+        background-image: url($imgPath+"companylists/10.png");
+        background-position:-15px -23px ;
+    }
+    & .name{
+        @include square(100%,45px);
+        text-align: center;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    & .contact{
+        width: 150px;
+        height: 50px;
+        background: url($imgPath+"companylists/11.png") no-repeat;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 45px;
+        & a{
+            display: block;
+            @include square(100%,100%)
+            color: #fff;
+        }
+        
+    }
+}
+.page{
+    width: $width;
+    height: auto;
+    overflow: hidden;
+    margin: 100px auto;
+    padding-left: 180px;
+    & .tuoyuan{
+        @include square(76px,28px);
+        border: 1px solid #9E9E9E;
+        border-radius: 30px;
+        float: left;
+        margin-left: 18px;
+        background: #FBFBFB;
+        text-align: center;
+        line-height: 28px;
+        & a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #7D7D7D;
+            font-size: 12px;
+            font-family: "微软雅黑";
+        }
+    }
+    & .yuan1{
+        @include square(28px,28px);
+        border-radius: 50%;
+        border: 1px solid #9E9E9E;
+        float: left;
+        margin-left: 18px;
+        background: #FBFBFB;
+         text-align: center;
+        line-height: 28px;
+        & a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #7D7D7D;
+            font-size: 12px;
+            font-family: "微软雅黑";
+        }
+    }
+    & .yuan2{
+        @include square(34px,34px);
+        background: #2E87F8;
+        border:0;       
+        position: relative; 
+        line-height: 34px;   
+        & a{
+            color: #fff;
+        }    
+    }
+    & .yuan2:after{
+        content: "";
+        width: 28px;
+        height: 28px;
+        border: 1px solid #fff;
+        @include center;
+         border-radius: 50%;
+    }
+    .yuan3{
+         @include square(32px,32px);
+         box-shadow: 0 0 3px #D1C9C9;
+         border:0;
+        position: relative;
+        &:after{
+            content: "Go"; 
+            @include square(28px,28px);
+            background: #2E87F8;
+            color: #FFFFFF;
+            font-size: 12px;            
+            @include center;
+            border-radius: 50%;
+        }
+        & a{
+            color: #fff;
+        }
+        
+    }
+}
+/*推荐企业*/
+.Recommend{
+    width: $width;
+    height: auto;
+    margin: 0 auto;
+    & .recommend-top{
+      @include square(100%,70px)
+        position: relative; 
+        letter-spacing: 1.3px;       
+        & .dian{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        & h4{
+            float: left;
+            color: #585858;
+            font-size: 20px;
+            line-height: 38px;
+            
+        }
+        & h2{
+            float: left;            
+            font-size: 33px;
+            color: #48B45A;
+             line-height: 30px;
+        }
+        & h3{
+            float: left;            
+            font-size: 22px;
+            color: #727272;
+            line-height: 40px;
+            padding-left: 5px;
+            font-family: "San Francisco Display";       
+        }
+        & .tupian{
+           @include square(145px,70px)           
+           float: left;
+           background: url($imgPath+"/companylists/11.png") no-repeat;
+           margin-left: 18px;
+           margin-right: 30px;
+           line-height: 45px;
+           text-align: center;          
+        }
+        & a{
+            display: block;
+            width: 80%;
+            height: 100%;
+            color: #fff;
+        }
+//      & .fenlei{
+//          width: 18px;
+//          height: 18px;
+//          background: #F2C747;
+//          border-radius: 50%;
+//          float: left;
+//      }
+        & .tupian1{
+             background: url($imgPath+"/companylists/12.png") no-repeat;
+        }
+        & .tupian2{
+             background: url($imgPath+"/companylists/14.png") no-repeat;
+        }
+    }
+}
+.yatu{
+    width: $width;
+    margin: 0 auto;
+    height: auto;
+     overflow: hidden;
+    & li{
+        width: 366px;
+        height: 265px;
+        float: left;        
+        margin-left: 32px; 
+        position: relative;  
+        overflow: hidden;    
+        & img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            
+        }
+        & .hide-pic{
+            position: absolute;top: 0;
+            left: 0;
+            z-index: 2;
+            
+        }   
+    }     
+}
+.company{
+    width: $width;
+    height: auto;
+    margin: 0 auto;
+    margin-top:18px;
+    margin-bottom: 42px;  
+    overflow: hidden;     
+    & li{
+        width: 366px;
+        height: auto;
+        float: left;        
+        margin-left: 32px; 
+        position: relative;
+        & h4{
+            width: 100%;
+            height: 28px;
+            color: #434141;
+            font-size: 18px;
+            & span{
+                display: block;
+                width: 30%;
+                height: 100%;
+                white-space: nowrap;
+                border-bottom: 1px solid #DEDEDE;
+                &:after{
+                    content: "";
+                    display: block;
+                    width: 20px;
+                    height: 100%;
+                    border-bottom: 1px solid #F3BC13;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        } 
+        & p{
+            width: 70%;
+            color: #7C7C7C;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 25px;
+        }
+        & .yuantu{
+            @include square(77px,77px)
+            @include top-bottom;
+            border: 3px solid #DDDDDD;
+            right: 0;
+            border-radius: 50%;   
+            background-image: url($imgPath+"companylists/7.png");  
+            background-position:-128px -34px;  
+            background-repeat: no-repeat;  
+        }
+        & .yuantu1{
+            background-image: url($imgPath+"companylists/6.png");   
+            background-position:-10px 0px;  
+            background-repeat: no-repeat;         
+        }
+        & .yuantu2{
+            background-image: url($imgPath+"companylists/8.png"); 
+            background-size: 290% auto;  
+            background-repeat: no-repeat;   
+            background-position:-70px -10px;       
+        }
+       
+    }
+}
