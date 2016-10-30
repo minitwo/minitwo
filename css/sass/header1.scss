@@ -59,28 +59,24 @@ img{display: block;}
             li:nth-of-type(1){
                 margin-left: 0;
             }
+            .dashed{
+                margin: 5px 0 0;
+                width: 0;
+                height: 40px;
+                border-left: 1px dashed #FFFFFF;
+            }
         }
         form{
             position: absolute;
             top: 55px;
             left: 900px;
-            :after{
-                content: "";
-                display: block;
-                @include top-bottom;
-                left: 14px;
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
-                background: #ffd015;
-            }
             .text{
                 float: left;
                 width: 380px;
                 height: 42px;
                 border: 2px solid rgba(255,255,255,0.7);
                 border-radius: 40px;
-                background: #035385;
+                background: transparent;
                 padding-left: 28px;
             }
             .btn{
