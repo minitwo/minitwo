@@ -70,6 +70,7 @@ img{
 *{
     position: relative;
     font-family:"microsoft yahei";
+    box-sizing: border-box;
 }
 @mixin left-right{
     position: absolute;
