@@ -34,7 +34,185 @@ img {
 
 * {
   position: relative;
-  font-family: "microsoft yahei";
+  font-family: "苹方";
+  box-sizing: border-box;
+}
+
+/*头  背景    墨蓝色*/
+/*头     浅灰色*/
+/*头  搜索     嫩绿*/
+/*头    黄色*/
+/*头  深绿*/
+/*大字体 紫色*/
+/*中字体颜色    黑色*/
+/*小字体颜色    黑色*/
+/*蓝色*/
+/*常用   中等蓝色*/
+/*最浅的蓝色*/
+/*粉色*/
+/*常用    深绿色*/
+/*黄色*/
+/*橙色*/
+/*红色*/
+/*灰色*/
+/*深灰色*/
+/*白色*/
+body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  position: relative;
+  font-family: "苹方";
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  height: 130px;
+  background: rgba(21, 79, 101, 0.9);
+}
+
+.header .header-con {
+  width: 1200px;
+  height: 130px;
+  margin: 0 auto;
+  padding: 50px 0 45px;
+}
+
+.header .header-con .log {
+  position: absolute;
+  top: 10px;
+  left: -120px;
+}
+
+.header .header-con .log a {
+  display: block;
+}
+
+.header .header-con .log a img {
+  height: 100px;
+}
+
+.header .header-con .nav {
+  overflow: hidden;
+}
+
+.header .header-con .nav li {
+  float: left;
+  margin: 0 40px;
+}
+
+.header .header-con .nav li a {
+  display: block;
+}
+
+.header .header-con .nav li a span {
+  display: block;
+  height: 25px;
+}
+
+.header .header-con .nav li a .eng {
+  color: #bdbebe;
+  font-size: 20px;
+  height: 28px;
+}
+
+.header .header-con .nav li a .ch {
+  color: #fff;
+  font-size: 18px;
+}
+
+.header .header-con .nav li .border {
+  width: 80px;
+  height: 1px;
+  background: #707577;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+}
+
+.header .header-con .nav li .color {
+  width: 10px;
+  height: 1px;
+  background: #f2c119;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 70px;
+}
+
+.header .header-con .nav li:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.header .header-con .nav .dashed {
+  margin: 5px 0 0;
+  width: 0;
+  height: 40px;
+  border-left: 1px dashed #FFFFFF;
+}
+
+.header .header-con form {
+  position: absolute;
+  top: 55px;
+  left: 900px;
+}
+
+.header .header-con form .text {
+  float: left;
+  width: 380px;
+  height: 42px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+  background: transparent;
+  padding-left: 28px;
+  outline: none;
+}
+
+.header .header-con form .btn {
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  height: 28px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 28px;
+  font-size: 20px;
+  background: #6cce24 url("../img/footer/btn.png") no-repeat center;
+  outline: none;
+}
+
+.header .header-con .roll {
+  width: 8px;
+  height: 8px;
+  background: #ffd015;
+  position: absolute;
+  top: 72px;
+  left: 912px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+img {
+  display: inline-block;
 }
 
 #resume {
@@ -918,8 +1096,11 @@ img {
 
 .jitou {
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
   top: 310px;
-  left: 500px;
   z-index: 12;
   width: 320px;
   height: 190px;
@@ -935,8 +1116,11 @@ img {
 
 .jianli {
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
   top: 415px;
-  left: 200px;
   width: 955px;
   height: 640px;
   background: #FFF;
@@ -977,8 +1161,9 @@ img {
   font-size: 16px;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 70px;
   display: inline-block;
+  line-height: 16px;
 }
 
 .jianli .wenj {
@@ -1001,6 +1186,253 @@ img {
 
 .jianli .xiugai {
   text-align: center;
+}
+
+.jianli .xiugai img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 20px;
+}
+
+.cir {
+  width: 430px;
+  height: 50px;
+  background: #21A26B;
+  position: absolute;
+  top: 1054px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 12;
+}
+
+.cir div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FFF;
+  float: left;
+  margin: 20px;
+}
+
+.cir div:nth-of-type(1) {
+  margin-left: 80px;
+  background: #F0C310;
+}
+
+.anniu {
+  position: absolute;
+  top: 1054px;
+  left: 60%;
+  z-index: 12;
+}
+
+.anniu .lra {
+  width: 80px;
+  height: 35px;
+  background: #fff;
+  border-radius: 0 35px 35px 0;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.anniu .x1 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  color: #F0C310;
+}
+
+.anniu .x2 {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: #F0C310;
+}
+
+.anniu .x3 {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.jitoux {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 1300px;
+  z-index: 12;
+  width: 320px;
+  height: 190px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.jitoux img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.jianlix {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 1400px;
+  width: 955px;
+  height: 640px;
+  background: #FFF;
+  z-index: 11;
+}
+
+.jianlix ul {
+  margin-top: 125px;
+}
+
+.jianlix ul li {
+  float: left;
+  width: 248px;
+  height: 322px;
+  margin-left: 50px;
+}
+
+.jianlix ul li img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.jianlix ul li:nth-of-type(1) .hong {
+  position: absolute;
+  top: 80px;
+  right: -16.5px;
+  opacity: 0.7;
+}
+
+.jianlix ul li:nth-of-type(2) .lv {
+  position: absolute;
+  top: -60px;
+  right: -20px;
+  opacity: 0.7;
+}
+
+.jianlix ul li:nth-of-type(3) {
+  background: #10C8F0;
+  text-align: center;
+  line-height: 322px;
+  font-size: 1000%;
+  color: #fff;
+}
+
+.jianlix ul li:nth-of-type(3) span {
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  display: inline-block;
+  line-height: 16px;
+}
+
+.jianlix .wenj {
+  float: left;
+  margin-left: 100px;
   margin-top: 30px;
-  margin-left: auto;
+}
+
+.jianlix .wenj1 {
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.jianlix .wenj2 {
+  float: left;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+.jianlix .xiugai {
+  text-align: center;
+}
+
+.jianlix .xiugai img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 20px;
+}
+
+.cirx {
+  width: 430px;
+  height: 50px;
+  background: #21A26B;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 2040px;
+  z-index: 12;
+}
+
+.cirx div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FFF;
+  float: left;
+  margin: 20px;
+}
+
+.cirx div:nth-of-type(1) {
+  margin-left: 80px;
+  background: #F0C310;
+}
+
+.anniux {
+  position: absolute;
+  top: 2040px;
+  left: 60%;
+  z-index: 12;
+}
+
+.anniux .lra {
+  width: 80px;
+  height: 35px;
+  background: #fff;
+  border-radius: 0 35px 35px 0;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.anniux .x1 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  color: #F0C310;
+}
+
+.anniux .x2 {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  color: #F0C310;
+}
+
+.anniux .x3 {
+  position: absolute;
+  top: 35px;
+  left: 90px;
+  color: #FFF;
+  font-size: 18px;
 }

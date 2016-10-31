@@ -444,10 +444,17 @@
         height:93px;
         span{
             color:#999999; 
+<<<<<<< HEAD
+            position: absolute;
+            left:114px;
+            bottom: 60px;
+        }
+=======
             position:absolute;
             left:114px;
             bottom:60px;
         } 
+>>>>>>> 2f29f6c2ee11727887361b540b7d4ea4d56282d0
     }
     ul{
         @include square(100%,422px);
