@@ -927,9 +927,9 @@ img{
     background: #21A26B;
     position: absolute;
     top: 1054px;
-    left: 300px;
+    @include left-right;
     z-index: 12;
-     margin: 0 auto;
+//   margin: 0 auto;
         div{
             width: 20px;
             height: 20px;
@@ -947,9 +947,8 @@ img{
 .anniu{
     position: absolute;
     top: 1054px;
-    left: 730px;
+    left: 60%;
     z-index: 12;
-     margin: 0 auto;
      .lra{
          width:80px;
          height:35px;
@@ -996,7 +995,6 @@ img{
 }
 .jianlix{
     @include left-right;
-    position: absolute;
     top: 1400px;
     width: 955px;
     height: 640px;
@@ -1081,11 +1079,11 @@ img{
     width: 430px;
     height: 50px;
     background: #21A26B;
+    @include left-right;
     position: absolute;
     top: 2040px;
-    left: 300px;
+    
     z-index: 12;
-     margin: 0 auto;
         div{
             width: 20px;
             height: 20px;
@@ -1103,9 +1101,8 @@ img{
 .anniux{
     position: absolute;
     top: 2040px;
-    left: 730px;
+    left: 60%;
     z-index: 12;
-     margin: 0 auto;
      .lra{
          width:80px;
          height:35px;
