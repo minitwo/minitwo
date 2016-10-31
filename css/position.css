@@ -34,41 +34,6 @@ img {
   font-family: "microsoft yahei";
   box-sizing: border-box; }
 
-/*头  背景    墨蓝色*/
-/*头     浅灰色*/
-/*头  搜索     嫩绿*/
-/*头    黄色*/
-/*头  深绿*/
-/*大字体 紫色*/
-/*中字体颜色    黑色*/
-/*小字体颜色    黑色*/
-/*蓝色*/
-/*常用   中等蓝色*/
-/*最浅的蓝色*/
-/*粉色*/
-/*常用    深绿色*/
-/*黄色*/
-/*橙色*/
-/*红色*/
-/*灰色*/
-/*深灰色*/
-/*白色*/
-body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
-  padding: 0;
-  margin: 0;
-  list-style: none; }
-
-a {
-  text-decoration: none; }
-
-img {
-  border: 0; }
-
-* {
-  position: relative;
-  font-family: "microsoft yahei";
-  box-sizing: border-box; }
-
 img {
   display: block; }
 
@@ -170,6 +135,28 @@ img {
               top: 0;
               bottom: 0;
               margin: auto; }
+      .footer .footer-con .footer-nav .footer-nav-cir1 {
+        width: 4px;
+        height: 4px;
+        background: #acacac;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: -3px; }
+      .footer .footer-con .footer-nav .footer-nav-cir2 {
+        width: 4px;
+        height: 4px;
+        background: #acacac;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        left: -3px; }
+    .footer .footer-con .fang {
+      width: 142px;
+      height: 142px;
+      float: right;
+      background: #25afff; }
+             margin: auto; }
       .footer .footer-con .footer-nav .footer-nav-cir1 {
         width: 4px;
         height: 4px;
