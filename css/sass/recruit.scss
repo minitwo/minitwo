@@ -1,4 +1,7 @@
 @import "../base/base.scss";
+@import "footer.scss";
+@import "header1.scss";
+@import "sidenav.scss";
 @mixin geshi{width: 100%;}
 @mixin bian($co){border:1px solid $co}
 @mixin jg{width:$width;
@@ -24,7 +27,7 @@
 body{@include bg(#F4F4F4);}
 .banner{@include geshi;}
 .banner img{width:100%;}
-.body{@include left-right;top:100px;padding-bottom: 20px;font-family: "苹方";}
+.body{@include left-right;top:220px;font-family: "苹方";overflow: hidden;img{display: inline-block;}}
 .tdjl{@include jg;height: 450px;}
 .dizhi{@include jg;
     height: 840px;
@@ -155,12 +158,6 @@ div{float: left;}
 .nei{width: 160px;height: 50px;background: #5BDB9D;text-align: center;color: #fff;line-height: 50px;}}
     }
 .zwfbz{position: absolute;left: 530px;bottom: 192px;background: #fff;padding: 0 5px;font-size: 10px;color: #8B828C;}
-//保得利公司
-//.bdli-top{
-//  width: 100%;}
-//.bdli-top .tubiao{float: left;height: 130;}
-//.bdli-top .you{float: left;padding-left: 20px;color: #8B828C;}
-//.bdli-top .you-top{height: 50px;line-height: 50px;font-size: 25px;}
 //招聘信息岗位
 .xxpl .top{height: 63px;
     border-bottom: 1px solid #B6B6B6;
