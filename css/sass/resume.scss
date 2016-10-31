@@ -1,0 +1,917 @@
+@import "../base/base";
+#resume{
+    @include square(100%,auto);
+    //事件1
+    .matter1{
+        @include square($width,auto);
+        padding:{
+            top: 145px;
+        }
+        margin:0 auto;
+        overflow: hidden;
+        .bo1{
+            position: absolute;
+            top:145px;
+            right: 0;
+            width: 1000px;
+            height: 1px;
+            background:$co18;
+        }
+        .left{
+            float: left;
+            span{
+                font-size: 21px;
+            }
+            span:nth-of-type(1){
+                padding: {
+                    top: 3px;
+                }
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            span:nth-of-type(2){
+                color: $co13;
+                font-size: 32px;
+            }
+        }
+        .right{
+            float: right;
+            span{
+                font-size: 13px;
+            }
+             span:nth-of-type(1){
+                padding-right: 5px;
+                img{
+                    vertical-align: middle;
+                }
+             }
+             span:nth-of-type(2){
+                line-height: 17px;
+                color: $co10;
+             }
+             span:nth-of-type(3){
+               line-height: 17px;
+             }
+              span:nth-of-type(4){
+               line-height: 17px;
+             }
+        }
+    }
+    //事件2
+    .matter2{
+        padding: {
+            bottom: 26px;
+        }
+         @include square($width,auto);
+            margin: 130px auto;
+            margin: {
+                bottom: 0;
+            }
+//          overflow: hidden;
+            border-bottom: 1px dashed $co18;
+            .left{
+                position: absolute;
+                top: 18px;
+                left: 0;
+                float: left;
+                span{
+                    float: left;
+                    font-weight: normal;
+                }
+                h1{
+                    font-size: 16px;
+                    font-weight: normal;
+                }
+                h4 {
+                    span{
+                    font-size: 8px;
+                    }
+                    span:nth-of-type(1),span:nth-of-type(2){
+                        width: 8px;
+                        height: 8px;
+                        background: $co15;
+                        border-radius: 50%;
+                        margin: {
+                            top: 5px;
+                            right: 5px;
+                        }
+                    }
+                    span:nth-of-type(3),span:nth-of-type(4){
+                        margin: {
+                            left: 5px;
+                        }
+                        color: $co16;
+                    }
+                    span:nth-of-type(5){
+                        width :30px;
+                        height: 5px;
+                        background: $co15;
+                        margin: {
+                            top: 5px;
+                            left: 5px;
+                        }
+                    }
+                }
+            }
+            .right{
+                float: right;
+                img{
+                    vertical-align: middle;
+                }
+            }
+            .leftcir{
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: $co18;
+                position: absolute;
+                bottom: -2.5px;
+                left: 0;
+            }
+            .rightcir{
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: $co18;
+                position: absolute;
+                bottom: -2.5px;
+                right: 0;
+            }
+    }
+    //事件3
+    .matter3{
+          @include square($width,auto);
+          padding: {
+              top: 40px;
+          }
+          margin:0 auto;
+          .left{
+              float: left;
+              img{
+                  border: 1px solid $co17;
+              }
+          }
+          .right{
+              float: left;
+              padding: {
+                  left: 15px;
+              }
+              h4{
+                  font-family: "宋体";
+                  margin: {
+                      top: 27px;
+                  }
+                  span{
+                      float: left;
+                  }
+                  span:nth-of-type(1){
+                      font-size: 35px;
+                      color: $co15;
+                  }
+                  span:nth-of-type(2){
+                      font-size: 35px;
+                      color: $co7;
+                      margin: {
+                          right: 16px;
+                      }
+                  }
+                   span:nth-of-type(3),span:nth-of-type(4),span:nth-of-type(5){
+                       width: 15px;
+                       height: 15px;
+                       border-radius: 50%;
+                       background: $co15;
+                       margin: {
+                           top: 18px;
+                           right: 5px;
+                       }
+                   }
+              }
+              p{  
+                  width: 500px;
+                  font-size: 12px;
+                  padding: {
+                      top: 30px;
+                      left: 49px;
+                  }
+                   color: $co8;
+              }
+          }
+    }
+    //事件4
+    .matter4{
+        @include square($width,auto);
+        overflow: hidden;
+            padding: {
+                top: 60px;
+                bottom: 31px;
+            }
+            border-bottom:1px dashed $co2;
+        margin:0 auto;
+        .left{
+            float: left;
+            padding: {
+                left: 12px;
+            }
+            .bg{
+                width: 280px;
+                height: 380px;
+                background: $co10;
+                .zi1{
+                    color: #fff;
+                    font-size: 25px;
+                    letter-spacing: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: 62px;
+                    left: 47px;
+                    span{
+                        position: absolute;
+                        top: 8px;
+                        right: -15px;
+                        text-align: center;
+                        line-height: 20px;
+                        color: #FFF;
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background: $co15;
+                    }
+                }
+                h4{
+                    width: 200px;
+                    height: 10px;
+                    background: #FFF;
+                    position: absolute;
+                    top: 100px;
+                    left: 47px;
+                }
+                .name{
+                    position: absolute;
+                    top: 115px;
+                    left: 47px;
+                    color: #FFF;
+                    font-size: 28px;
+                    *{
+                        float: left;
+                    }
+                    span:nth-of-type(1){
+                        font-weight: bold;
+                    }
+                    span:nth-of-type(2){
+                        font-weight: normal;
+                    }
+                    div{
+                        width: 65px;
+                        height: 65px;
+                        border-radius: 50%;
+                        background: url(../img/resume/4.gif);
+                        margin: {
+                            top: -20px;
+                            left: 30px;
+                        }
+                    }
+                    
+                }
+                .hengpi{
+                    position: absolute;
+                    top: 178px;
+                    left: -12px;
+                }
+                .con1,.con2,.con3,.con4{
+                    font-size: 9px;
+                    color: #544750;
+                    position: absolute;
+                    left: 47px;
+                    padding: {
+                        left: 28px;
+                    }
+                }
+                .con1{
+                    top: 236px;
+                    background: url(../img/resume/10.gif)no-repeat;
+                }
+                .con2{
+                    top: 260px;
+                    background: url(../img/resume/11.gif)no-repeat;
+                }
+                .con3{
+                    top: 285px;
+                    background: url(../img/resume/12.gif)no-repeat;
+                }
+                .con4{
+                    top: 346px;
+                    background: url(../img/resume/13.gif)no-repeat;
+                }
+            }
+        }
+        .right{
+            float: left;
+            .top{
+                h4{
+                  font-family: "宋体";
+                  margin: {
+                      top: 27px;
+                      left: 26px;
+                  }
+                  span{
+                      float: left;
+                  }
+                  span:nth-of-type(1){
+                      font-size: 35px;
+                      color: $co15;
+                  }
+                  span:nth-of-type(2){
+                      font-size: 35px;
+                      color: $co7;
+                      margin: {
+                          right: 16px;
+                      }
+                  }
+                   span:nth-of-type(3),span:nth-of-type(4),span:nth-of-type(5){
+                       width: 15px;
+                       height: 15px;
+                       border-radius: 50%;
+                       background: $co15;
+                       margin: {
+                           top: 18px;
+                           right: 5px;
+                       }
+                   }
+              }
+            }
+            .bottom{
+                font-size: 15px;
+                .left{
+                    float: left;
+                    h1{
+                        font-size: 19px;
+                        font-weight: normal;
+                        margin: {
+                            top: 19px;
+                            left: 26px;
+                        }
+                    }
+                    h2{
+                        width: 228px;
+                        height: 25px;
+                        background: #175C86;
+                        margin: {
+                            top: 16px;
+                            left: 26px;
+                        }
+                        span {
+                            position: absolute;
+                            top: 4px;
+                            font-size: 9px;
+                            color: #FFF;
+                            padding: {
+                                left: 20px;
+                                right: 27px;
+                            }
+                        }
+                        span:nth-of-type(1){
+                            background: url(../img/resume/8.gif)no-repeat;
+                            background-position:left center;
+                            left: 0px;
+                        }
+                        span:nth-of-type(2){
+                            background: url(../img/resume/7.gif)no-repeat;
+                            background-position:left center;
+                            left: 85px;
+                        }
+                        span:nth-of-type(3){
+                            background: url(../img/resume/6.gif)no-repeat;
+                            background-position:left center;
+                            left: 160px;
+                        }
+                    }
+                    h3{
+                        width: 130px;
+                        height: 40px;
+                        background: $co15;
+                        margin: {
+                            top: 30px;
+                            left: 26px;
+                        }
+                        border-radius: 40px;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 40px;
+                    }
+                }
+                .right{
+                    position: absolute;
+                    float: right;
+                    left: 253px;
+                }
+            }
+        }
+    }
+    //事件5
+    .matter5{
+        @include square($width,auto);
+        overflow: hidden;
+            margin: {
+                top: 32px;
+            }
+            border-bottom:1px solid #DDDDDD;
+        margin:32px auto;
+        background:#F4F4F4 ;
+        margin-bottom: 0;
+        h4{
+          font-family: "宋体";
+          margin: {
+              top: 27px;
+              left: 26px;
+          }
+          span{
+              float: left;
+          }
+          span:nth-of-type(1){
+              font-size: 35px;
+              color: $co15;
+          }
+          span:nth-of-type(2){
+              font-size: 35px;
+              color: $co7;
+              margin: {
+                  right: 16px;
+              }
+          }
+           
+      }
+      div{
+          img{
+              margin: {
+                  left: 26px;
+              }
+          }
+      }
+      .b_lack{
+          width: 100%;
+          background: #FFF;
+          height: 31px;
+      }
+    }
+    .title{
+         @include square($width,50px);
+         margin: 0 auto;
+         line-height: 50px;
+         border-bottom: 1px solid #DDDDDD;
+        .left{
+            float: left;
+            span:nth-of-type(1),span:nth-of-type(2){
+                color: #164C6E;
+            }
+        }
+        .right{
+            float: right;
+            span:nth-of-type(1),span:nth-of-type(2){
+                color: #164C6E;
+            }
+        }
+    }
+    //事件6
+    .matter6{
+        overflow: hidden;
+        @include square($width,auto);
+        margin: 40px auto;
+        .titl{
+            span{
+                font-size: 21px;
+            }
+            span:nth-of-type(1){
+                padding: {
+                    top: 3px;
+                }
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            span:nth-of-type(2){
+                color: $co13;
+                font-size: 32px;
+            }
+        }
+        .squery{
+            padding: {
+                top: 15px;
+            }
+            li{
+                width:380px;
+                float: left;
+                height: auto;
+                margin: {
+                    right: 20px;
+                }
+                .left{
+                    float: left;
+                    span{
+                        display: block;
+                        height: auto;
+                        font-size: 17px;
+                        line-height: 17px;
+                    }
+                    span:nth-of-type(1){
+                        font-weight: bold;
+                        padding-bottom: 3px;
+                        img{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                    span:nth-of-type(2){
+                        font-size: 15px;
+                        padding-top: 3px;
+                    }
+                    span:nth-of-type(3) span:nth-of-type(1){
+                        color: #A8A8A8;
+                        font-size: 9px;
+                        padding-top: 5px;
+                        padding-left: 20px;
+                        background: url(../img/resume/17.gif)no-repeat;
+                        background-position: left center; 
+                        float: left;
+                    }
+                     #xingxing{
+                         margin-left: 20px;
+                         float: left;
+                     }
+                }
+                .right{
+                    float: right;
+                    width: 77px;
+                    height: 77px;
+                    background: url(../img/resume/18.gif)no-repeat;
+                }
+            }
+        }    
+    }
+    //事件7
+    .matter7{
+        @include square($width,auto);
+         z-index: 5;
+        margin: 40px auto;
+        margin-bottom: 0;
+        background: #FFF;
+        .titl{
+            span{
+                font-size: 21px;
+            }
+            span:nth-of-type(1){
+                padding: {
+                    top: 3px;
+                }
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+            span:nth-of-type(2){
+                color: $co13;
+                font-size: 32px;
+            }
+        }
+        .speak{
+            width: 98%;
+            margin-top: 57px;
+            border-bottom: 1px solid #A8A8A8;
+            span{
+                position: absolute;
+                left: 50px;
+                bottom: 0;
+                padding-bottom: 3px;
+                img{
+                    position: absolute;
+                    bottom: -3px;
+                    left: 0;
+                }
+            }
+        }
+        .wenben{
+            overflow: hidden;
+            margin: {
+                top: 50px;
+            }
+            .left{
+                width: 5%;
+                float: left;
+            }
+            .right{
+                width: 95%;
+                float: left;
+                .shengyu {
+                    float: right;
+                }
+                textarea{
+                    padding: {
+                        left: 20px;
+                        top: 20px;
+                    }
+                    font-size:18px;
+                    margin-left: 2%;
+                    width: 95%;
+                    height: 187px;
+                }
+                .xuqiu{
+                    margin-top: 17px;
+                    .left1{
+                        float: left;
+                        img{
+                            vertical-align: middle;
+                            margin-left: 35px;
+                        }
+                    }
+                    .right1{
+                        float: right;
+                        img:nth-of-type(1){
+                            margin-right: 20px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+#xiangguan{
+    width: 100%;
+    height: auto;
+    ul li{
+        overflow: hidden;
+        border-bottom: 1px solid #EFEFEF;
+        margin: {
+            
+            top: 55px;
+           
+            left: 25px;
+        }
+        padding-bottom: 65px;
+        .left{
+            width: 8%;
+            float: left;
+            }
+        .right{
+            width: 88%;
+            float: left;
+            padding-left: 30px;
+            .shuming{
+                float: left;
+                .logo{
+                    margin-left: 25px;
+                    font-size: 10px;
+                    color: #C4C4C4;
+                }
+            }
+            .lou{
+                float: right;
+                color: $co17;
+            }
+            p{
+                font-size: 12px;
+                color: #5F5F5F;
+                margin-top: 22px;
+            }
+            
+            
+        }
+    }
+    ul .yinyongz{
+        .yinyong{
+            margin-top: 20px;
+        }
+        .kuang{
+            padding: {
+                left: 12px;
+                top: 13px;
+                right: 15px;
+            }
+            width: 470px;
+            height: 85px;
+            border: 1px solid #DDDDDD;
+        }
+        #left2{
+            float: left;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 12px;
+        }
+        #right2{
+            float: left;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 12px;
+            margin-right: 5px;
+            color: #B0B0B0;
+        }
+    }
+    ul .xiaotu{
+        .zong{
+            margin-top: 45px;
+            overflow: hidden;
+            .left3{
+                float: left;
+        }
+            .right3{
+                float: left;
+                .left4{
+                    float: left;
+                    font-size: 10px;
+                    color: #A1A1A1;
+                    margin-left: 20px;
+                    h4{
+                        font-size: 16px;
+                        color: #434343;
+                    }
+                }
+                .right4{
+                    margin-left: 10px;
+                    float: left;
+                    font-size: 14px;
+                    color: #565656;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+#xiaobiao{
+    margin-top: 35px;
+    span{
+        float: right;
+        font-size: 10px;
+    }
+    span:nth-of-type(1){
+        padding-left: 20px;
+        background: url(../img/resume/28.gif)no-repeat;
+        background-position: left center; 
+    }
+    span:nth-of-type(2),span:nth-of-type(3){
+        margin-right: 40px;
+        color: #10C8F0;
+        
+    }
+}
+#tour{
+    background: #FFF;
+    z-index: 5;
+    @include square($width,auto);
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    overflow: hidden;
+    .right{
+        margin-right: 50px;
+        float: right;
+        font-size: 21px;
+        color: #707070;
+        img{
+            vertical-align: middle;
+        }
+    }
+}
+#more{
+    @include square($width,auto);
+    margin: 0 auto;
+    padding: {
+        top: 80px;
+        bottom: 80px;
+    }
+    overflow: hidden;
+    z-index: 5;
+    background: #175C86;
+    div{
+        width: 535px;
+        height: 60px;
+        border-radius: 60px;
+        background: #F1BD11;
+        color: #FFF;
+        text-align: center;
+        line-height: 60px;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+}
+#bg{
+    background: #175C86;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.clear{
+    clear: both;
+}
+#bigbg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.jitou{
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    z-index: 12;
+    width: 320px;
+    height: 190px;
+    background: #11CEF8;
+    text-align: center;
+    img{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+.jianli{
+    position: absolute;
+    top: 415px;
+    left: 200px;
+    width: 955px;
+    height: 640px;
+    background: #FFF;
+    z-index: 11;
+    ul{
+        margin: {
+            top: 125px;
+        }
+        li{
+            float: left;
+            width: 248px;
+            height: 322px;
+            margin: {
+                left: 50px;
+            }
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        li:nth-of-type(1) .close,li:nth-of-type(2) .close{
+            position: absolute;
+            top: -16.5px;
+            left: -16.5px;
+            
+        }
+        li:nth-of-type(3){
+            background: #10C8F0;
+            text-align: center;
+            line-height: 322px;
+            font-size: 1000%;
+            color: #fff;
+            span{
+                font-size: 16px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: inline-block;
+            }
+        }
+    }
+    .wenj{
+        float: left;
+        margin: {
+            left: 100px;
+            top: 30px;
+        }
+    }
+    .wenj1{
+        float: left;
+        margin: {
+            top: 30px;
+            left: 150px;
+        }
+    }
+    .wenj2{
+        float: left;
+        margin: {
+            top: 30px;
+            left: 180px;
+        }
+    }
+    .xiugai{
+        text-align: center;
+        margin: {
+            top: 30px;
+            left: auto;
+        }
+    }
+}
