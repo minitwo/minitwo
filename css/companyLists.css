@@ -960,6 +960,23 @@ img {
   z-index: 100;
 }
 
+.lunbo .zhezhao .banner .bao-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.lunbo .zhezhao .banner .bao-img img {
+  position: absolute;
+  top: auto;
+  left: 0;
+  opacity: 0;
+}
+
+.lunbo .zhezhao .banner .bao-img .baoimg {
+  opacity: 1;
+}
+
 .lunbo .zhezhao .yellow {
   width: 65px;
   height: 65px;
@@ -1114,7 +1131,8 @@ img {
   margin: auto;
   top: 25px;
   left: 276px;
-  padding-left: 40px;
+  padding-left: 60px;
+  color: #CCCCCC;
 }
 
 .pipei .pi2 .find {
@@ -1127,6 +1145,16 @@ img {
   right: 60px;
   background-image: url("../img/companylists/big-xun.jpg");
   background-position: 1px 1px;
+}
+
+.pipei .pi2 .yeldian {
+  width: 10px;
+  height: 10px;
+  background: #FFD014;
+  position: absolute;
+  top: 105px;
+  left: 305px;
+  border-radius: 50%;
 }
 
 .finda {
