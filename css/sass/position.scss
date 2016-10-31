@@ -1,20 +1,19 @@
 @import '../base/base';
 @import 'footer';
+@import 'header2';
+@import 'sidenav';
 .position-banner{
     @include square(100%,814px)
     .bg{
-        @include square(100%,670px);
+        @include square(100%,835px);
         background-image:url($imgPath+"position/3.png");
+        background-size:100% auto;
         background-repeat:no-repeat;
        .zhao{
-            @include square(100%,670px);
+            @include square(100%,835px);
             background:rgba(57,121,574,0.3);
-            .nav{
-                @include square(100%,145px);
-                background:rgba(9,78,105,0.6);
-            }
             .imgs{
-                @include square(1200px,557px);
+                @include square(1436px,744px);
                 @include left-right;
                 overflow:hidden;
                 margin-top:28px;
@@ -33,8 +32,9 @@
                    left:66px; 
                 }
                 position:absolute;
-                top:325px;
-                left:4%;
+                top:361px;
+                left:120px;
+                z-index:10;
                 h1{
                     color:#fff;
                     font-size:43px;
@@ -50,12 +50,102 @@
                     width:415px;
                 }
             }
+            .square1{
+                width:66px;
+                height:66px;
+                background:rgba(209,201,75,0.4);
+                position:absolute;
+                left:10px;
+                top:509px;
+            }
+            .square2{
+                width:150px;
+                height:150px;
+                background:rgba(209,201,75,0.4);
+                position:absolute;
+                left:43px;
+                top:542px;
+            }
+            .square3{
+                width:73px;
+                height:482px;
+                background:rgba(22,118,130,0.6);
+                position:absolute;
+                right:160px;
+                top:298px;
+            }
+            .square4{
+                width:120px;
+                height:240px;
+                background:url($imgPath+'position/14.png');
+                position:absolute;
+                right:113px;
+                top:476px;
+                ul{
+                    width:15px;
+                    height:120px;
+                    position:absolute;
+                    top:38px;
+                    left:26px;
+                    
+                    li{
+                        width:15px;
+                        height:15px;
+                        background:#fff;
+                        border-radius:50%;
+                        margin-bottom:15px;
+                        a{
+                            display:block;
+                            width:100%;
+                            height:100%;
+                            border-radius:50%;
+                        }
+                    }
+                    li:nth-child(4){
+                        background:transparent;
+                        border:2px solid #fff;
+                    }
+                }
+                .span1{
+                    display:block;
+                    font-size:13px;
+                    color:#fff;
+                    margin:{
+                        left:54px;
+                        top:120px;
+                    }
+                    span{
+                        font-size:18px;
+                       
+                    }
+                }
+                div{
+                    width:80px;
+                    height:37px;
+                    background:#fff;
+                    border-radius:0 80px 80px 0;
+                    margin-top:30px;
+                    padding:{
+                        top:5px;
+                        left:30px;
+                    }
+                    a{
+                        font-size:16px;
+                        color:#F0C310;
+                        font-family:'songti';
+                        font-weight:bold;
+                        margin:{
+                            right:10px;
+                        }
+                    }
+                }
+            }
             .bottom{
                 @include square(1200px,219px);
                 @include left-right;
                 background:url($imgPath+'position/1.png') no-repeat;
                 background-size:auto 100%;
-                margin-top:440px;
+                margin-top:600px;
                 box-shadow:0 3px 3px #BEC2C3;
                 ul{
                     width:100%;
@@ -174,7 +264,7 @@
     }  
 }
 .inner{
-    margin:0 auto;
+    margin:230px auto;
     @include square(1200px,1064px);
     .search{
         @include square(100%,80px);
