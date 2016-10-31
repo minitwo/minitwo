@@ -1,0 +1,177 @@
+@import "../base/base.scss";
+@mixin geshi{width: 100%;}
+@mixin bian($co){border:1px solid $co}
+@mixin jg{width:$width;
+     @include bg(#fff);
+     margin: 10px auto;
+     border-radius: 10px;}
+@mixin ding($a,$b){position: absolute;left: $a;top: $b;}
+@mixin zhiye{width: 540px;
+    height: 85px;
+    float: left;
+    @include bian(#B6B6B6);
+    border-left:2px solid #00B38A;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 15px 20px;}
+@mixin tuo{height: 20px;
+    border-radius: 10px;
+    margin: 13px 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #464545;
+    font-size: 12px;}
+body{@include bg(#F4F4F4);}
+.banner{@include geshi;}
+.banner img{width:100%;}
+.body{@include left-right;top:100px;padding-bottom: 20px;font-family: "苹方";}
+.tdjl{@include jg;height: 450px;}
+.dizhi{@include jg;
+    height: 840px;
+    color: #B6B6B6;
+.zuo{@include ding(-170px,275px)};
+.you{@include ding(100%,690px)};
+.shang{height: 240px;
+    border-bottom: 1px solid #B6B6B6;
+    padding: 50px 0 0 30px;
+.biaot{font-size: 16px;padding-top: 25px;
+span{color: #00B38A;}
+b{color: #4F4E4E;}}
+ul{font-size: 12px;line-height:20px;padding: 10px 0;}}
+.zhong{height: 160px;
+    border-bottom: 1px solid #B6B6B6;
+    padding: 20px 30px;
+.biaot{font-size: 16px;padding-bottom: 5px;
+span{color: #00B38A;}
+b{color: #4F4E4E;}}
+ul{font-size: 12px;
+    line-height:20px;
+    padding: 10px 0;}}
+.xia{padding: 0 30px;
+.gzdd{height: 60px;
+    width: 100%;
+    padding: 15px 0;}
+.wei{padding: 20px 0;
+    font-size: 14px;}}}
+.qyjs{@include jg;height: 1050px;
+.shang{width: 870px;
+    height: 145px;
+    border-bottom: 1px solid #B6B6B6;
+    padding: 20px;
+ul{padding: 20px 50px;
+    font-size: 14px;
+    color: #B6B6B6;
+    line-height: 20px;}}
+.nei{height: 760px;
+    width: 100%;
+    border-bottom: 1px solid ;
+.biaot{height: 65px;
+    padding: 35px 25px;}
+ul{padding: 20px 50px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #B6B6B6;
+    line-height: 20px;
+.hou{margin-top: 20px;}}}
+.imgs{padding: 45px 50px;
+div{float: left;
+    margin-right: 10px;}}
+.qywz{padding: 30px 25px;
+.wangzhi{padding: 20px 50px;
+    color: #1893D1;}}}
+.bdli{@include jg;
+    height: 310px;
+    border-top:2px solid #10C3EA;
+    font-family: "苹方";
+.top{padding: 25px 25px 15px 25px;height: 110px;
+div{float: left;}
+.you{padding-left: 20px;
+    color: #8B828C;
+.you-top{height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+.tuoa{@include tuo;
+    width: 75px;
+    background: #FFC454;
+    margin-left: 40px}
+.tuob{@include tuo;
+    width: 50px;
+    background: #FF6A91;}
+.tuoc{@include tuo;
+    width: 80px;
+    background: #3FE694;}
+}
+h4{font-family: "苹方";
+    font-size: 16px;
+    color: #464545;}}}
+ul{padding: 20px 25px;
+    color: #8B828C;
+    font-size: 14px;
+a{color: #1893D1;}}
+.ren{position: absolute;
+    bottom: -7px;
+    right: -50px;}}
+.xxpl{@include jg;
+    height: 430px;
+    border-top:2px solid #10C3EA;}
+.ui{position: absolute;
+    top: -10px;
+    left: 40px;
+    width: 265px;
+    height: 80px;
+    @include bg(#1893D1);
+    border-radius: 5px;
+    padding: 17px 20px;
+    font-family: "苹方";
+    color: #fff;
+    line-height: 1.5;}
+.sleft{position: relative;top: 90px;left: 50px;}
+.sleft ul li{font-size: 16px;padding: 5px 0;}
+ul img{vertical-align: middle;margin-right:10px ;}
+ul .one span{color: #EE2525;padding: 0 5px;}
+ul .two{color: #8B828C;}
+.sleft ul .three{font-size: 10px;color: #00B38A;padding: 20px 0;}
+.sright{position: absolute;top: 60px;right: 160px;}
+.xukuang{width: 1035px;
+    height: 150px;
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+    border: 1px dashed #8B828C;
+div{float: left;}
+.tx{padding: 10px 15px;    
+    }
+.gsm{height: 100%;
+    line-height: 150px;
+    font-size: 10px;
+    color: #8B828C;
+    margin-left: 210px;}
+.sxt{width: 295px;
+    height: 70px;
+    float: right;
+    border-left:1px solid #8B828C;
+    margin-top: 40px;
+    padding: 10px 60px;
+.nei{width: 160px;height: 50px;background: #5BDB9D;text-align: center;color: #fff;line-height: 50px;}}
+    }
+.zwfbz{position: absolute;left: 530px;bottom: 192px;background: #fff;padding: 0 5px;font-size: 10px;color: #8B828C;}
+//保得利公司
+//.bdli-top{
+//  width: 100%;}
+//.bdli-top .tubiao{float: left;height: 130;}
+//.bdli-top .you{float: left;padding-left: 20px;color: #8B828C;}
+//.bdli-top .you-top{height: 50px;line-height: 50px;font-size: 25px;}
+//招聘信息岗位
+.xxpl .top{height: 63px;
+    border-bottom: 1px solid #B6B6B6;
+    line-height: 80px;
+    padding-left: 25px;}
+.xxpl .xia{padding: 45px 0 45px 40px;}
+.xxpl .zhaopin{@include zhiye;@include bg(#F4F4F4);}
+.zhaopin .shijian{position: absolute;
+    top:25px;
+    right:20px;
+    color: #8B828C;}
+.zhaopin h4{font-family: "苹方";font-size: 23px;color: #00B38A;}
+.zhaopin h6{font-family: "苹方";font-size: 16px;color: #8B828C;}
+.zhaopin h6 span{color: #EE2525;font-size: 18px;}
