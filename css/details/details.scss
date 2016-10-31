@@ -422,6 +422,7 @@ $sel:img title;
     padding-top: 10px;
     padding-right: 20px;
     margin-bottom: 12px;
+    position: relative;
     h3{
         font-size: 17px;
         color: $ctitle;
@@ -446,8 +447,16 @@ $sel:img title;
         }
     }
 }
-
-
+.work-img-one{
+    position: absolute;
+    top: 8px;
+    right: -14px;
+}
+.work-img-two{
+    position: absolute;
+    top: 26px;
+    left: -18px;
+}
 /*footer*/
 $f-bg:(1,#5ccc56),(2,#2a77f6),(3,#f59421);
 .footer{
