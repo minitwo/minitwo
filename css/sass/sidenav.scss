@@ -117,9 +117,10 @@ $sidenull:(1,#10c8f0),(2,#2a2e34),(3,#2a2e34),(4,#2a2e34),(5,#2a2e34),(6,#2a2e34
     height: 100%;
     background: rgba(36,38,41,0.5);
     ul{
+        margin-top:150px;
         @each $sn,$sback in $sidenull{
              li:nth-of-type(#{$sn}){
-               padding: 0 8px 10px 40px;
+               padding: 0 8px 40px 10px;
                a{
                    display: block;
                    @include square(32px,32px);
