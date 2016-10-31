@@ -1,0 +1,163 @@
+@import '../base/base';
+@import 'header1';
+@import 'footer';
+$color:#E5E5E5;
+@mixin input{
+    border: 2px solid $color;
+     border-radius: 5px;
+     outline:none;
+     font-size: 16px;
+      color: #6B6A6A;
+      margin-right: 30px;
+}
+
+body{
+    background: #F4F4F4;
+    font-size: 14px;
+}
+input,select,textarea{
+    border: 0;
+}
+.grxx-text{
+    @include square(1120px,1100px);
+    background: #fff;
+    margin: 0 auto;
+    margin-top:8px;
+    padding-top: 20px;
+    .text-nei{
+        margin-left:175px;
+        margin-right:175px;
+        margin-top: 63px;
+        div{
+            margin: 20px 0;
+        }
+        img{
+            display: inline-block;
+            margin-left: 60px;
+        }
+        .tx{
+            span{
+                float: left;
+                margin-top: 20px;
+            }
+        }
+        .img{
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            margin-left: 60px;
+            overflow: hidden;
+            img{
+                margin: 0;
+                position: absolute;
+                top: -80px;
+                left: -20px;
+            }
+        }
+        .nc{
+              @include square(180px,33px);
+              margin-left: 52px;
+              @include input;
+              
+        }
+        .xb{
+            @include square(60px,33px);
+              margin-left: 52px;
+              @include input;
+              text-align: center;
+              line-height: 33px;
+        }
+        .nl{
+            @include square(60px,33px);
+              margin-left: 52px;
+              @include input;
+              text-align: center;
+              line-height: 33px;
+        }
+        .qm{
+             @include square(425px,76px);
+              margin-left: 52px;
+              @include input;
+              vertical-align: top;
+              resize: none;
+              margin-bottom: 50px;
+        }
+        .zsxm{
+            @include square(182px,33px);
+            @include input;
+            margin-left: 23px;
+        }
+        .sfzt{
+            @include square(372px,33px);
+            @include input;
+            margin-left: 20px;
+            
+        }
+        .qzyx{
+              @include square(135px,33px);
+            @include input;
+            margin-left: 13px;
+        }
+        .sheng{
+              @include square(92px,33px);
+            @include input;
+            margin-left: 20px;
+        }
+        .shi{
+              @include square(92px,33px);
+            @include input;
+            margin-left: 20px;
+            
+        }
+        .mbxz{
+             @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .sjhm{
+             @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .yx{
+            @include square(182px,33px);
+              margin-left: 40px;
+              @include input;
+              margin-bottom: 50px;
+        }
+        .byyx{
+              @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .zymc{
+               @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .bysj{
+              @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+        }
+        .xl{
+             @include square(100px,33px);
+            @include input;
+            margin-left: 40px;
+        }
+        .gzjy{
+            @include square(182px,33px);
+            @include input;
+            margin-left: 12px;
+            margin-bottom: 50px;
+        }
+        .last{
+             @include square(437px,45px);
+             @include left-right;
+             img{
+                 margin: 0;
+                 margin-right: 65px;
+             }
+        }
+    }
+}
