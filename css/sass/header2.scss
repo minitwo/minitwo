@@ -1,0 +1,34 @@
+@import "header1";
+$d-b-l:(2,#f0c310,1250px),(3,#1bbf9d,1320px);
+.header{
+    .header-con{
+        .nav{
+            li:nth-of-type(1){
+                i{
+                    @include square(28px,28px);
+                    border-radius: 50%;
+                    background: #21a26b;
+                    position: absolute;
+                    top: 24px;
+                    left: 90px;
+                }
+            }
+        }
+        form{
+            .text{
+                width: 325px;
+            }
+        }
+        @each $d,$b,$l in $d-b-l{
+            .cir:nth-of-type(#{$d}){
+                @include square(42px,42px);
+                position: absolute;
+                top: 55px;
+                left: #{$l};
+                background: #{$b};
+                border: 2px solid #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+}
