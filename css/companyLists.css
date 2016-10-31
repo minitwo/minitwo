@@ -38,7 +38,1107 @@ img {
   box-sizing: border-box;
 }
 
+/*头  背景    墨蓝色*/
+/*头     浅灰色*/
+/*头  搜索     嫩绿*/
+/*头    黄色*/
+/*头  深绿*/
+/*大字体 紫色*/
+/*中字体颜色    黑色*/
+/*小字体颜色    黑色*/
+/*蓝色*/
+/*常用   中等蓝色*/
+/*最浅的蓝色*/
+/*粉色*/
+/*常用    深绿色*/
+/*黄色*/
+/*橙色*/
+/*红色*/
+/*灰色*/
+/*深灰色*/
+/*白色*/
+body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  position: relative;
+  font-family: "microsoft yahei";
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background: #2d2d2d;
+  padding: 70px 0 80px;
+}
+
+.footer .footer-con {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.footer .footer-con .footer-log {
+  float: left;
+  margin-left: 50px;
+  margin-right: 65px;
+}
+
+.footer .footer-con .footer-log a {
+  display: block;
+}
+
+.footer .footer-con .footer-nav {
+  float: left;
+  border-left: 1px solid #4c4b4b;
+  padding: 0 15px;
+}
+
+.footer .footer-con .footer-nav .nav {
+  overflow: hidden;
+}
+
+.footer .footer-con .footer-nav .nav li {
+  float: left;
+  padding: 6px 20px;
+}
+
+.footer .footer-con .footer-nav .nav li a {
+  display: block;
+  font-size: 18px;
+  color: #8c8c8c;
+}
+
+.footer .footer-con .footer-nav .border {
+  width: 250px;
+  height: 0;
+  border: 1px dashed #8c8c8c;
+}
+
+.footer .footer-con .footer-nav p {
+  font-size: 16px;
+  color: #8C8C8C;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.footer .footer-con .footer-nav .links {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(1) {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(1) a {
+  display: block;
+  height: 56px;
+  width: 56px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #5ccc56;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(1) a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(2) {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(2) a {
+  display: block;
+  height: 56px;
+  width: 56px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #2a77f6;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(2) a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(3) {
+  float: left;
+  padding-left: 20px;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(3) a {
+  display: block;
+  height: 56px;
+  width: 56px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #f59421;
+}
+
+.footer .footer-con .footer-nav .links li:nth-of-type(3) a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.footer .footer-con .footer-nav .footer-nav-cir1 {
+  width: 4px;
+  height: 4px;
+  background: #acacac;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -3px;
+}
+
+.footer .footer-con .footer-nav .footer-nav-cir2 {
+  width: 4px;
+  height: 4px;
+  background: #acacac;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+}
+
+.footer .footer-con .fang {
+  width: 142px;
+  height: 142px;
+  float: right;
+  background: #25afff;
+}
+
+/*头  背景    墨蓝色*/
+/*头     浅灰色*/
+/*头  搜索     嫩绿*/
+/*头    黄色*/
+/*头  深绿*/
+/*大字体 紫色*/
+/*中字体颜色    黑色*/
+/*小字体颜色    黑色*/
+/*蓝色*/
+/*常用   中等蓝色*/
+/*最浅的蓝色*/
+/*粉色*/
+/*常用    深绿色*/
+/*黄色*/
+/*橙色*/
+/*红色*/
+/*灰色*/
+/*深灰色*/
+/*白色*/
+body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  position: relative;
+  font-family: "microsoft yahei";
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  height: 130px;
+  background: rgba(21, 79, 101, 0.9);
+}
+
+.header .header-con {
+  width: 1200px;
+  height: 130px;
+  margin: 0 auto;
+  padding: 50px 0 45px;
+}
+
+.header .header-con .log {
+  position: absolute;
+  top: 10px;
+  left: -120px;
+}
+
+.header .header-con .log a {
+  display: block;
+}
+
+.header .header-con .log a img {
+  height: 100px;
+}
+
+.header .header-con .nav {
+  overflow: hidden;
+}
+
+.header .header-con .nav li {
+  float: left;
+  margin: 0 40px;
+}
+
+.header .header-con .nav li a {
+  display: block;
+}
+
+.header .header-con .nav li a span {
+  display: block;
+  height: 25px;
+}
+
+.header .header-con .nav li a .eng {
+  color: #bdbebe;
+  font-size: 20px;
+  height: 28px;
+}
+
+.header .header-con .nav li a .ch {
+  color: #fff;
+  font-size: 18px;
+}
+
+.header .header-con .nav li .border {
+  width: 80px;
+  height: 1px;
+  background: #707577;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+}
+
+.header .header-con .nav li .color {
+  width: 10px;
+  height: 1px;
+  background: #f2c119;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 70px;
+}
+
+.header .header-con .nav li:nth-of-type(1) {
+  margin-left: 0;
+}
+
+.header .header-con .nav .dashed {
+  margin: 5px 0 0;
+  width: 0;
+  height: 40px;
+  border-left: 1px dashed #FFFFFF;
+}
+
+.header .header-con form {
+  position: absolute;
+  top: 55px;
+  left: 900px;
+}
+
+.header .header-con form .text {
+  float: left;
+  width: 380px;
+  height: 42px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 40px;
+  background: transparent;
+  padding-left: 28px;
+  outline: none;
+}
+
+.header .header-con form .btn {
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  height: 28px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 28px;
+  font-size: 20px;
+  background: #6cce24 url("../img/footer/btn.png") no-repeat center;
+  outline: none;
+}
+
+.header .header-con .roll {
+  width: 8px;
+  height: 8px;
+  background: #ffd015;
+  position: absolute;
+  top: 72px;
+  left: 912px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+/*头  背景    墨蓝色*/
+/*头     浅灰色*/
+/*头  搜索     嫩绿*/
+/*头    黄色*/
+/*头  深绿*/
+/*大字体 紫色*/
+/*中字体颜色    黑色*/
+/*小字体颜色    黑色*/
+/*蓝色*/
+/*常用   中等蓝色*/
+/*最浅的蓝色*/
+/*粉色*/
+/*常用    深绿色*/
+/*黄色*/
+/*橙色*/
+/*红色*/
+/*灰色*/
+/*深灰色*/
+/*白色*/
+body, h1, h2, h3, h4, h5, h6, ul, li, p, input {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+* {
+  position: relative;
+  font-family: "microsoft yahei";
+  box-sizing: border-box;
+}
+
+.sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 66px;
+  height: 100%;
+  background: rgba(36, 38, 41, 0.5);
+  z-index: 100000;
+}
+
+.sidenav .pic {
+  margin-top: 60px;
+}
+
+.sidenav .pic a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidenav .pic a img {
+  display: block;
+}
+
+.sidenav .pic .star {
+  margin: 0 auto;
+  width: 50px;
+  height: 30px;
+  border-bottom: 2px solid #55595f;
+  background: url(../img/sidenav/star.png) no-repeat center center;
+}
+
+.sidenav .pic .star em:nth-of-type(1) {
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  left: -2px;
+}
+
+.sidenav .pic .star em:nth-of-type(2) {
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -3px;
+  left: 50px;
+}
+
+.sidenav .nav {
+  margin-top: 60px;
+}
+
+.sidenav .nav li:nth-of-type(1) {
+  padding: 14px 12px;
+}
+
+.sidenav .nav li:nth-of-type(1) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #ff961b url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px 5px;
+}
+
+.sidenav .nav li:nth-of-type(1) a span {
+  display: none;
+  width: 85px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: url(../img/sidenav/tanchu.png) center no-repeat;
+  z-index: 200;
+}
+
+.sidenav .nav li:nth-of-type(1) a span img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sidenav .nav li:nth-of-type(1) a:hover span {
+  display: block;
+}
+
+.sidenav .nav li:nth-of-type(1) .two {
+  display: block;
+  width: 30px;
+  height: 20px;
+  color: #33383b;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  font-size: 14px;
+  background: #ffee2d;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 5;
+}
+
+.sidenav .nav li:nth-of-type(2) {
+  padding: 14px 12px;
+}
+
+.sidenav .nav li:nth-of-type(2) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #ff401a url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -68px;
+}
+
+.sidenav .nav li:nth-of-type(2) a span {
+  display: none;
+  width: 85px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: url(../img/sidenav/tanchu.png) center no-repeat;
+  z-index: 200;
+}
+
+.sidenav .nav li:nth-of-type(2) a span img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sidenav .nav li:nth-of-type(2) a:hover span {
+  display: block;
+}
+
+.sidenav .nav li:nth-of-type(2) .two {
+  display: block;
+  width: 30px;
+  height: 20px;
+  color: #33383b;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  font-size: 14px;
+  background: #ffee2d;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 5;
+}
+
+.sidenav .nav li:nth-of-type(3) {
+  padding: 14px 12px;
+}
+
+.sidenav .nav li:nth-of-type(3) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #ffbc1a url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -140px;
+}
+
+.sidenav .nav li:nth-of-type(3) a span {
+  display: none;
+  width: 85px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: url(../img/sidenav/tanchu.png) center no-repeat;
+  z-index: 200;
+}
+
+.sidenav .nav li:nth-of-type(3) a span img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sidenav .nav li:nth-of-type(3) a:hover span {
+  display: block;
+}
+
+.sidenav .nav li:nth-of-type(3) .two {
+  display: block;
+  width: 30px;
+  height: 20px;
+  color: #33383b;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  font-size: 14px;
+  background: #ffee2d;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 5;
+}
+
+.sidenav .nav li:nth-of-type(4) {
+  padding: 14px 12px;
+}
+
+.sidenav .nav li:nth-of-type(4) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #73b420 url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -210px;
+}
+
+.sidenav .nav li:nth-of-type(4) a span {
+  display: none;
+  width: 85px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: url(../img/sidenav/tanchu.png) center no-repeat;
+  z-index: 200;
+}
+
+.sidenav .nav li:nth-of-type(4) a span img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sidenav .nav li:nth-of-type(4) a:hover span {
+  display: block;
+}
+
+.sidenav .nav li:nth-of-type(4) .two {
+  display: block;
+  width: 30px;
+  height: 20px;
+  color: #33383b;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  font-size: 14px;
+  background: #ffee2d;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 5;
+}
+
+.sidenav .nav li:nth-of-type(5) {
+  padding: 14px 12px;
+}
+
+.sidenav .nav li:nth-of-type(5) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #f42a63 url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -278px;
+}
+
+.sidenav .nav li:nth-of-type(5) a span {
+  display: none;
+  width: 85px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: url(../img/sidenav/tanchu.png) center no-repeat;
+  z-index: 200;
+}
+
+.sidenav .nav li:nth-of-type(5) a span img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.sidenav .nav li:nth-of-type(5) a:hover span {
+  display: block;
+}
+
+.sidenav .nav li:nth-of-type(5) .two {
+  display: block;
+  width: 30px;
+  height: 20px;
+  color: #33383b;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  font-size: 14px;
+  background: #ffee2d;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  z-index: 5;
+}
+
+.sidenav .go {
+  margin-top: 60px;
+}
+
+.sidenav .go li:nth-of-type(1) {
+  padding: 14px 12px;
+}
+
+.sidenav .go li:nth-of-type(1) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: #fdc11e url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -431px;
+}
+
+.sidenav .go li:nth-of-type(1) a {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.sidenav .go li:nth-of-type(2) {
+  padding: 14px 12px;
+}
+
+.sidenav .go li:nth-of-type(2) a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: transparent url(../img/sidenav/ce.png) no-repeat;
+  background-position: -14px -500px;
+}
+
+.sidenav .go li:nth-of-type(1) a {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.sidenull {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(36, 38, 41, 0.5);
+}
+
+.sidenull ul {
+  margin-top: 150px;
+}
+
+.sidenull ul li:nth-of-type(1) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(1) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #10c8f0;
+}
+
+.sidenull ul li:nth-of-type(2) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(2) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2a2e34;
+}
+
+.sidenull ul li:nth-of-type(3) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(3) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2a2e34;
+}
+
+.sidenull ul li:nth-of-type(4) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(4) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2a2e34;
+}
+
+.sidenull ul li:nth-of-type(5) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(5) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2a2e34;
+}
+
+.sidenull ul li:nth-of-type(6) {
+  padding: 0 8px 40px 10px;
+}
+
+.sidenull ul li:nth-of-type(6) a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2a2e34;
+}
+
 /*城市*/
+.lunbo {
+  width: 100%;
+  height: 832px;
+  margin: 0 auto;
+  background: url("../img/companyLists/banner.jpg") no-repeat;
+  background-size: 100%;
+  margin-bottom: 150px;
+}
+
+.lunbo .zhezhao {
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 79, 101, 0.7);
+  position: relative;
+}
+
+.lunbo .zhezhao .banner {
+  width: 1440px;
+  height: 650px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  top: 180px;
+  z-index: 100;
+}
+
+.lunbo .zhezhao .yellow {
+  width: 65px;
+  height: 65px;
+  background: rgba(238, 188, 15, 0.4);
+  position: absolute;
+  top: 510px;
+  left: 85px;
+}
+
+.lunbo .zhezhao .yellow1 {
+  width: 150px;
+  height: 150px;
+  background: rgba(238, 188, 15, 0.4);
+  position: absolute;
+  top: 540px;
+  left: 119px;
+  z-index: 101;
+}
+
+.lunbo .zhezhao .bac-cir {
+  width: 74px;
+  height: 480px;
+  background: rgba(29, 212, 115, 0.3);
+  position: absolute;
+  top: 296px;
+  right: 164px;
+}
+
+.lunbo .zhezhao .banner-circle {
+  width: 118px;
+  height: 240px;
+  background: url("../img/companylists/20.png");
+  position: absolute;
+  top: 475px;
+  right: 122px;
+  padding-top: 30px;
+}
+
+.lunbo .zhezhao .banner-circle .circle1 {
+  width: 100%;
+  height: 28px;
+  position: relative;
+}
+
+.lunbo .zhezhao .banner-circle .circle1 a {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 25px;
+}
+
+.lunbo .zhezhao .banner-circle .circle1 .kong {
+  background: none;
+  border: 2px solid #fff;
+}
+
+.tuoyuan1 {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.tuoyuan1 .tuoyuan {
+  width: 95px;
+  height: 36px;
+  border-radius: 30px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -20px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+.tuoyuan1 .tuoyuan li {
+  width: 40%;
+  height: 100%;
+  line-height: 36px;
+  text-align: center;
+  float: right;
+}
+
+.tuoyuan1 .tuoyuan li a {
+  font-family: "宋体";
+  font-weight: bold;
+  color: #EEC10E;
+  font-size: 26px;
+}
+
+.page1 {
+  position: absolute;
+  top: 115px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.page1 h5 {
+  color: #fff;
+  font-size: 28px;
+  font-family: "方正准圆繁体";
+  font-weight: normal;
+}
+
+.page1 h5 span {
+  font-size: 18px;
+}
+
+.page1 h6 {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.pipei {
+  width: 1200px;
+  height: 197px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -80px;
+  z-index: 100;
+  background: url("../img/companyLists/pipei.png");
+}
+
+.pipei .pi2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.pipei .pi2 input {
+  width: 845px;
+  height: 80px;
+  background: #fff;
+  border: 0;
+  border-radius: 43px;
+  outline: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  top: 25px;
+  left: 276px;
+  padding-left: 40px;
+}
+
+.pipei .pi2 .find {
+  width: 179px;
+  height: 84px;
+  border-radius: 50px;
+  background: red;
+  position: absolute;
+  top: 85px;
+  right: 60px;
+  background-image: url("../img/companylists/big-xun.jpg");
+  background-position: 1px 1px;
+}
+
+.finda {
+  font-size: 40px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 84px;
+}
+
 .city {
   width: 1200px;
   margin: 41px auto;
@@ -389,7 +1489,7 @@ img {
   width: 145px;
   height: 70px;
   float: left;
-  background: url("../img//companylists/11.png") no-repeat;
+  background: url("../img//companylists/17.png") no-repeat;
   margin-left: 18px;
   margin-right: 30px;
   line-height: 45px;
@@ -398,17 +1498,17 @@ img {
 
 .Recommend .recommend-top a {
   display: block;
-  width: 80%;
+  width: 90%;
   height: 100%;
   color: #fff;
 }
 
 .Recommend .recommend-top .tupian1 {
-  background: url("../img//companylists/12.png") no-repeat;
+  background: url("../img//companylists/18.png") no-repeat;
 }
 
 .Recommend .recommend-top .tupian2 {
-  background: url("../img//companylists/14.png") no-repeat;
+  background: url("../img//companylists/19.png") no-repeat;
 }
 
 .yatu {
