@@ -1118,7 +1118,10 @@ img {
   .spread .title {
     height: 93px; }
     .spread .title span {
-      color: #999999; }
+      color: #999999;
+      position: absolute;
+      left: 114px;
+      bottom: 60px; }
   .spread ul {
     width: 100%;
     height: 422px; }
