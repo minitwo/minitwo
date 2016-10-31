@@ -3,7 +3,7 @@ img{display: block;}
 .header{
     width: 100%;
     height: 130px;
-    background: rgba(16,200,240,0.3);
+    background: rgba(21,79,101,0.9);
     .header-con{
         width: $width;
         height: 130px;
@@ -78,6 +78,7 @@ img{display: block;}
                 border-radius: 40px;
                 background: transparent;
                 padding-left: 28px;
+                outline: none;
             }
             .btn{
                 position: absolute;
@@ -88,7 +89,8 @@ img{display: block;}
                 border: 2px solid rgba(255,255,255,0.7);
                 border-radius: 28px;
                 font-size: 20px;
-                background:#6cce24 url(../../img/footer/btn.png) no-repeat center;
+                background:#6cce24 url($imgPath+"footer/btn.png") no-repeat center;
+                outline: none;                
             }
         }
         .roll{
