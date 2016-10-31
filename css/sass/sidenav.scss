@@ -1,0 +1,130 @@
+@import "../base/base";
+$n-l:(1,-2px),(2,50px);
+$n-b-t:(1,#ff961b,5px),(2,#ff401a,-68px),(3,#ffbc1a,-140px),(4,#73b420,-210px),(5,#f42a63,-278px);
+$go-n-b-t:(1,#fdc11e,-431px),(2,transparent,-500px);
+.sidenav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 66px;
+    height: 100%;
+    background: rgba(36,38,41,0.5);
+    .pic{
+        margin-top: 60px;
+        a{
+            display: block;
+            margin-bottom: 10px;
+            img{
+                display: block;
+            }
+        }
+        .star{
+            margin: 0 auto;
+            width: 50px;
+            height: 30px;
+            border-bottom: 2px solid #55595f;
+            background: url(../../img/sidenav/star.png) no-repeat center center;
+            @each $n,$l in $n-l{
+                em:nth-of-type(#{$n}){
+                    width: 4px;
+                    height: 4px;
+                    background: #fff;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: -3px;
+                    left: #{$l};
+                }
+            }
+        }
+    }
+    .nav{
+        margin-top: 60px;
+        @each $n,$b,$t in $n-b-t{
+            li:nth-of-type(#{$n}){
+                padding: 14px 12px;
+                a{
+                    display: block;
+                    @include square(42px,42px);
+                    border-radius: 50%;
+                    border:2px solid #fff;
+                    background: #{$b} url(../../img/sidenav/ce.png) no-repeat;
+                    background-position: -14px #{$t};
+                    span{
+                        display: none;
+                        @include square(85px,42px);
+                        position: absolute;
+                        top: 0;
+                        right: 100%;
+                        background: url(../../img/sidenav/tanchu.png) center no-repeat;
+                        img{
+                            display: block;
+                            @include center;
+                        }
+                    }
+                }
+                a:hover span{
+                    display: block;
+                }
+                .two{
+                    display: block;
+                    width: 30px;
+                    height: 20px;
+                    color: #33383b;
+                    border: 2px solid #FFFFFF;
+                    border-radius: 18px;
+                    font-size: 14px;
+                    background: #ffee2d;
+                    text-align: center;
+                    font-weight: bold;
+                    line-height: 20px;
+                    position: absolute;
+                    right: 4px;
+                    top: 4px;
+                    z-index: 5;
+                }
+            }
+        }
+    }
+    .go{
+        margin-top: 60px;
+//      position: absolute;
+//      bottom: 50px;
+//      left: 0;
+        @each $nt,$go-back,$top in $go-n-b-t{
+            li:nth-of-type(#{$nt}){
+                padding: 14px 12px;
+                a{
+                    display: block;
+                    @include square(42px,42px);
+                    background: #{$go-back} url(../../img/sidenav/ce.png) no-repeat;
+                    background-position: -14px #{$top};
+               }
+           }
+           li:nth-of-type(1) a{
+               border:2px solid #fff;
+               border-radius: 50%;
+           }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
