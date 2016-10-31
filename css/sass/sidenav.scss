@@ -122,7 +122,7 @@ $sidenull:(1,#10c8f0),(2,#2a2e34),(3,#2a2e34),(4,#2a2e34),(5,#2a2e34),(6,#2a2e34
                padding: 0 8px 10px 40px;
                a{
                    display: block;
-                   @include @include square(32px,32px);
+                   @include square(32px,32px);
                    border-radius: 50%;
                    background: #{$sback};
                }
