@@ -165,6 +165,9 @@ img {
       border-radius: 50%;
       z-index: 10; }
 
+img {
+  display: inline-block; }
+
 #resume {
   width: 100%;
   height: auto; }

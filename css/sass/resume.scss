@@ -1,5 +1,8 @@
 @import "../base/base";
 @import 'header1';
+img{
+    display: inline-block;
+}
 #resume{
     @include square(100%,auto);
     //事件1
