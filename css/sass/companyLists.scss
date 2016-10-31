@@ -351,6 +351,12 @@
         }
         
     }
+    & .contact1{
+        background: url($imgPath+"companylists/12.png") no-repeat;        
+    }
+    & .contact2{
+        background: url($imgPath+"companylists/14.png") no-repeat;        
+    }
 }
 .page{
     width: $width;
