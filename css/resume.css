@@ -828,9 +828,13 @@ img {
     margin-top: 30px;
     margin-left: 180px; }
   .jianli .xiugai {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto; }
+    text-align: center; }
+    .jianli .xiugai img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 20px; }
 
 .cir {
   width: 430px;
@@ -957,9 +961,13 @@ img {
     margin-top: 30px;
     margin-left: 180px; }
   .jianlix .xiugai {
-    text-align: center;
-    margin-top: 30px;
-    margin-left: auto; }
+    text-align: center; }
+    .jianlix .xiugai img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 20px; }
 
 .cirx {
   width: 430px;
