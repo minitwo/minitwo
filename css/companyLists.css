@@ -941,14 +941,14 @@ img {
   margin-bottom: 150px;
 }
 
-.lunbo .zhezhao {
+.zhezhao {
   width: 100%;
   height: 100%;
   background: rgba(21, 79, 101, 0.7);
   position: relative;
 }
 
-.lunbo .zhezhao .banner {
+.banner {
   width: 1440px;
   height: 650px;
   position: absolute;
@@ -960,24 +960,24 @@ img {
   z-index: 100;
 }
 
-.lunbo .zhezhao .banner .bao-img {
+.banner .bao-img {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.lunbo .zhezhao .banner .bao-img img {
+.banner .bao-img img {
   position: absolute;
   top: auto;
   left: 0;
   opacity: 0;
 }
 
-.lunbo .zhezhao .banner .bao-img .baoimg {
+.banner .bao-img .baoimg {
   opacity: 1;
 }
 
-.lunbo .zhezhao .yellow {
+.yellow {
   width: 65px;
   height: 65px;
   background: rgba(238, 188, 15, 0.4);
@@ -986,7 +986,7 @@ img {
   left: 85px;
 }
 
-.lunbo .zhezhao .yellow1 {
+.yellow1 {
   width: 150px;
   height: 150px;
   background: rgba(238, 188, 15, 0.4);
@@ -996,32 +996,32 @@ img {
   z-index: 101;
 }
 
-.lunbo .zhezhao .bac-cir {
+.bac-cir {
   width: 74px;
   height: 480px;
   background: rgba(29, 212, 115, 0.3);
   position: absolute;
   top: 296px;
-  right: 164px;
+  right: 124px;
 }
 
-.lunbo .zhezhao .banner-circle {
+.banner-circle {
   width: 118px;
   height: 240px;
   background: url("../img/companylists/20.png");
   position: absolute;
   top: 475px;
-  right: 122px;
+  right: 70px;
   padding-top: 30px;
 }
 
-.lunbo .zhezhao .banner-circle .circle1 {
+.banner-circle .circle1 {
   width: 100%;
   height: 28px;
   position: relative;
 }
 
-.lunbo .zhezhao .banner-circle .circle1 a {
+.banner-circle .circle1 a {
   display: block;
   width: 15px;
   height: 15px;
@@ -1034,7 +1034,7 @@ img {
   left: 25px;
 }
 
-.lunbo .zhezhao .banner-circle .circle1 .kong {
+.banner-circle .circle1 .kong {
   background: none;
   border: 2px solid #fff;
 }
