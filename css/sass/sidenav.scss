@@ -23,7 +23,7 @@ $go-n-b-t:(1,#fdc11e,-431px),(2,transparent,-500px);
             width: 50px;
             height: 30px;
             border-bottom: 2px solid #55595f;
-            background: url(../../img/sidenav/star.png) no-repeat center center;
+            background: url(../img/sidenav/star.png) no-repeat center center;
             @each $n,$l in $n-l{
                 em:nth-of-type(#{$n}){
                     width: 4px;
@@ -47,7 +47,7 @@ $go-n-b-t:(1,#fdc11e,-431px),(2,transparent,-500px);
                     @include square(42px,42px);
                     border-radius: 50%;
                     border:2px solid #fff;
-                    background: #{$b} url(../../img/sidenav/ce.png) no-repeat;
+                    background: #{$b} url(../img/sidenav/ce.png) no-repeat;
                     background-position: -14px #{$t};
                     span{
                         display: none;
@@ -55,7 +55,8 @@ $go-n-b-t:(1,#fdc11e,-431px),(2,transparent,-500px);
                         position: absolute;
                         top: 0;
                         right: 100%;
-                        background: url(../../img/sidenav/tanchu.png) center no-repeat;
+                        background: url(../img/sidenav/tanchu.png) center no-repeat;
+                        z-index: 200;
                         img{
                             display: block;
                             @include center;
@@ -96,7 +97,7 @@ $go-n-b-t:(1,#fdc11e,-431px),(2,transparent,-500px);
                 a{
                     display: block;
                     @include square(42px,42px);
-                    background: #{$go-back} url(../../img/sidenav/ce.png) no-repeat;
+                    background: #{$go-back} url(../img/sidenav/ce.png) no-repeat;
                     background-position: -14px #{$top};
                }
            }
