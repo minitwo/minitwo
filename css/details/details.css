@@ -24,7 +24,8 @@ b, i, em {
 .header {
   width: 100%;
   height: 130px;
-  background: #145880; }
+  background: #145880;
+  overflow: hidden; }
   .header .header-con {
     width: 1200px;
     height: 130px;
@@ -32,9 +33,12 @@ b, i, em {
     padding: 50px 0 45px;
     position: relative; }
     .header .header-con .log {
-      position: absolute;
-      top: 10px;
-      left: -120px; }
+      margin: 0 20px;
+      margin-right: 30px;
+      position: relative;
+      top: -30px;
+      left: 0;
+      float: left; }
       .header .header-con .log a {
         display: block; }
         .header .header-con .log a img {
@@ -43,7 +47,8 @@ b, i, em {
       overflow: hidden; }
       .header .header-con .nav li {
         float: left;
-        margin: 0 40px; }
+        margin: 0 20px;
+        position: relative; }
         .header .header-con .nav li a {
           display: block; }
           .header .header-con .nav li a span {
@@ -51,13 +56,13 @@ b, i, em {
             height: 25px; }
           .header .header-con .nav li a .eng {
             color: #bdbebe;
-            font-size: 20px;
+            font-size: 16px;
             height: 28px; }
           .header .header-con .nav li a .ch {
             color: #fff;
-            font-size: 18px; }
+            font-size: 14px; }
         .header .header-con .nav li .border {
-          width: 80px;
+          width: 60px;
           height: 1px;
           background: #707577;
           position: absolute;
@@ -73,7 +78,7 @@ b, i, em {
           top: 0;
           bottom: 0;
           margin: auto;
-          left: 70px; }
+          left: 60px; }
       .header .header-con .nav li:nth-of-type(1) {
         margin-left: 0; }
       .header .header-con .nav .dashed {
@@ -84,10 +89,10 @@ b, i, em {
     .header .header-con form {
       position: absolute;
       top: 55px;
-      left: 900px; }
+      right: 20px; }
       .header .header-con form .text {
         float: left;
-        width: 380px;
+        width: 320px;
         height: 42px;
         border: 2px solid rgba(255, 255, 255, 0.7);
         border-radius: 40px;
@@ -95,8 +100,8 @@ b, i, em {
         padding-left: 28px; }
       .header .header-con form .btn {
         position: absolute;
-        right: 6px;
-        top: 7px;
+        right: 8px;
+        top: 10px;
         height: 28px;
         width: 60px;
         border: 2px solid rgba(255, 255, 255, 0.7);
@@ -108,8 +113,8 @@ b, i, em {
       height: 8px;
       background: #ffd015;
       position: absolute;
-      top: 72px;
-      left: 912px;
+      top: 75px;
+      right: 350px;
       border-radius: 50%;
       z-index: 10; }
 
@@ -531,3 +536,319 @@ b, i, em {
       height: 142px;
       float: right;
       background: #25afff; }
+
+/*cedaohang*/
+.sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 66px;
+  height: 100%;
+  background: rgba(36, 38, 41, 0.5); }
+  .sidenav .pic {
+    margin-top: 60px;
+    position: relative; }
+    .sidenav .pic a {
+      position: relative;
+      display: block;
+      margin-bottom: 10px; }
+      .sidenav .pic a img {
+        display: block; }
+    .sidenav .pic .star {
+      margin: 0 auto;
+      position: relative;
+      width: 50px;
+      height: 30px;
+      border-bottom: 2px solid #55595f;
+      background: url(../img/sidenav/star.png) no-repeat center center; }
+      .sidenav .pic .star em:nth-of-type(1) {
+        width: 4px;
+        height: 4px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -3px;
+        left: -2px; }
+      .sidenav .pic .star em:nth-of-type(2) {
+        width: 4px;
+        height: 4px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -3px;
+        left: 50px; }
+  .sidenav .nav {
+    margin-top: 60px; }
+    .sidenav .nav li:nth-of-type(1) {
+      padding: 14px 12px;
+      position: relative; }
+      .sidenav .nav li:nth-of-type(1) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        position: relative;
+        border: 2px solid #fff;
+        background: #ff961b url(../../img/sidenav/ce.png) no-repeat;
+        background-position: -13px 5px; }
+        .sidenav .nav li:nth-of-type(1) a span {
+          display: none;
+          width: 85px;
+          height: 42px;
+          position: absolute;
+          top: 0;
+          right: 100%;
+          background: url(../../img/sidenav/tanchu.png) center no-repeat;
+          z-index: 200; }
+          .sidenav .nav li:nth-of-type(1) a span img {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+      .sidenav .nav li:nth-of-type(1) a:hover span {
+        display: block; }
+      .sidenav .nav li:nth-of-type(1) .two {
+        display: block;
+        width: 30px;
+        height: 20px;
+        color: #33383b;
+        border: 2px solid #FFFFFF;
+        border-radius: 18px;
+        font-size: 14px;
+        background: #ffee2d;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 5; }
+    .sidenav .nav li:nth-of-type(2) {
+      padding: 14px 12px;
+      position: relative; }
+      .sidenav .nav li:nth-of-type(2) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        position: relative;
+        border: 2px solid #fff;
+        background: #ff401a url(../../img/sidenav/ce.png) no-repeat;
+        background-position: -13px -68px; }
+        .sidenav .nav li:nth-of-type(2) a span {
+          display: none;
+          width: 85px;
+          height: 42px;
+          position: absolute;
+          top: 0;
+          right: 100%;
+          background: url(../../img/sidenav/tanchu.png) center no-repeat;
+          z-index: 200; }
+          .sidenav .nav li:nth-of-type(2) a span img {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+      .sidenav .nav li:nth-of-type(2) a:hover span {
+        display: block; }
+      .sidenav .nav li:nth-of-type(2) .two {
+        display: block;
+        width: 30px;
+        height: 20px;
+        color: #33383b;
+        border: 2px solid #FFFFFF;
+        border-radius: 18px;
+        font-size: 14px;
+        background: #ffee2d;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 5; }
+    .sidenav .nav li:nth-of-type(3) {
+      padding: 14px 12px;
+      position: relative; }
+      .sidenav .nav li:nth-of-type(3) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        position: relative;
+        border: 2px solid #fff;
+        background: #ffbc1a url(../../img/sidenav/ce.png) no-repeat;
+        background-position: -13px -140px; }
+        .sidenav .nav li:nth-of-type(3) a span {
+          display: none;
+          width: 85px;
+          height: 42px;
+          position: absolute;
+          top: 0;
+          right: 100%;
+          background: url(../../img/sidenav/tanchu.png) center no-repeat;
+          z-index: 200; }
+          .sidenav .nav li:nth-of-type(3) a span img {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+      .sidenav .nav li:nth-of-type(3) a:hover span {
+        display: block; }
+      .sidenav .nav li:nth-of-type(3) .two {
+        display: block;
+        width: 30px;
+        height: 20px;
+        color: #33383b;
+        border: 2px solid #FFFFFF;
+        border-radius: 18px;
+        font-size: 14px;
+        background: #ffee2d;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 5; }
+    .sidenav .nav li:nth-of-type(4) {
+      padding: 14px 12px;
+      position: relative; }
+      .sidenav .nav li:nth-of-type(4) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        position: relative;
+        border: 2px solid #fff;
+        background: #73b420 url(../../img/sidenav/ce.png) no-repeat;
+        background-position: -13px -210px; }
+        .sidenav .nav li:nth-of-type(4) a span {
+          display: none;
+          width: 85px;
+          height: 42px;
+          position: absolute;
+          top: 0;
+          right: 100%;
+          background: url(../../img/sidenav/tanchu.png) center no-repeat;
+          z-index: 200; }
+          .sidenav .nav li:nth-of-type(4) a span img {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+      .sidenav .nav li:nth-of-type(4) a:hover span {
+        display: block; }
+      .sidenav .nav li:nth-of-type(4) .two {
+        display: block;
+        width: 30px;
+        height: 20px;
+        color: #33383b;
+        border: 2px solid #FFFFFF;
+        border-radius: 18px;
+        font-size: 14px;
+        background: #ffee2d;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 5; }
+    .sidenav .nav li:nth-of-type(5) {
+      padding: 14px 12px;
+      position: relative; }
+      .sidenav .nav li:nth-of-type(5) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        position: relative;
+        border: 2px solid #fff;
+        background: #f42a63 url(../../img/sidenav/ce.png) no-repeat;
+        background-position: -13px -278px; }
+        .sidenav .nav li:nth-of-type(5) a span {
+          display: none;
+          width: 85px;
+          height: 42px;
+          position: absolute;
+          top: 0;
+          right: 100%;
+          background: url(../../img/sidenav/tanchu.png) center no-repeat;
+          z-index: 200; }
+          .sidenav .nav li:nth-of-type(5) a span img {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
+      .sidenav .nav li:nth-of-type(5) a:hover span {
+        display: block; }
+      .sidenav .nav li:nth-of-type(5) .two {
+        display: block;
+        width: 30px;
+        height: 20px;
+        color: #33383b;
+        border: 2px solid #FFFFFF;
+        border-radius: 18px;
+        font-size: 14px;
+        background: #ffee2d;
+        text-align: center;
+        font-weight: bold;
+        line-height: 20px;
+        position: absolute;
+        right: 4px;
+        top: 4px;
+        z-index: 5; }
+  .sidenav .go {
+    margin-top: 60px; }
+    .sidenav .go li:nth-of-type(1) {
+      position: relative;
+      padding: 14px 12px; }
+      .sidenav .go li:nth-of-type(1) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        background: #fdc11e url(../img/sidenav/ce.png) no-repeat;
+        background-position: -14px -431px;
+        position: relative; }
+    .sidenav .go li:nth-of-type(1) a {
+      border: 2px solid #fff;
+      border-radius: 50%; }
+    .sidenav .go li:nth-of-type(2) {
+      position: relative;
+      padding: 14px 12px; }
+      .sidenav .go li:nth-of-type(2) a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        background: transparent url(../img/sidenav/ce.png) no-repeat;
+        background-position: -14px -500px;
+        position: relative; }
+    .sidenav .go li:nth-of-type(1) a {
+      border: 2px solid #fff;
+      border-radius: 50%; }
